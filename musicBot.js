@@ -13,4 +13,5 @@ music(Bot, {
 	maxQueueSize: 10, // Maximum queue size of 10.
 	clearInvoker: true // If permissions applicable, allow the bot to delete the messages that invoke it (start with prefix)
 });
-Bot.login(token);
+
+bot.login(process.env.BOT_TOKEN);
